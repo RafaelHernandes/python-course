@@ -15,3 +15,4 @@ Obs: Caso seja a implementação de algo novo, colocamos FEAT, se for correção
 
 Passo 6: Para enviar definitivamente para o repositório do GIT HUB, dar o comando "git push"
 
+Passo 7: git pull - para puxar as alterações que foram comitadas.
