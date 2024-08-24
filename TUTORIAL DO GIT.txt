@@ -1,0 +1,17 @@
+ANTES DE TUDO, ABRIR O GIT BASH, TODOS OS COMANDOS SÃO LÁ.
+
+
+Passo 1: Para entrar na pasta do projeto o comando é: "cd python-course" (que no caso é a minha pasta/repositório)
+
+Passo 2: Para identificar que está dentro da pasta, precisa aparecer (main) no seu diretório. 
+
+Passo 3 (Opcional): Dar o comando "git status" para verificar se existe alterações pendentes que não subiu.
+
+Passo 4: Depois de realizar todas as alterações LOCAIS, dar o comando "git add ." para adicionar as alterações locais no repositório.
+
+Passo 5: Para definir a mensagem que vai mensagem que vai descrever o commit (o que estou enviando), o comando é " git commit -m "feat: mensagem do que estou fazendo"
+
+Obs: Caso seja a implementação de algo novo, colocamos FEAT, se for correção de algo, FIX
+
+Passo 6: Para enviar definitivamente para o repositório do GIT HUB, dar o comando "git push"
+
