@@ -9,7 +9,8 @@ Passo 3 (Opcional): Dar o comando "git status" para verificar se existe alteraç
 
 Passo 4: Depois de realizar todas as alterações LOCAIS, dar o comando "git add ." para adicionar as alterações locais no repositório.
 
-Passo 5: Para definir a mensagem que vai mensagem que vai descrever o commit (o que estou enviando), o comando é " git commit -m "feat: mensagem do que estou fazendo"
+Passo 5: Para definir a mensagem que vai mensagem que vai descrever o commit (o que estou enviando), o comando é 
+" git commit -m "feat: mensagem do que estou fazendo"
 
 Obs: Caso seja a implementação de algo novo, colocamos FEAT, se for correção de algo, FIX
 
