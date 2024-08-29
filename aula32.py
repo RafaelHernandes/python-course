@@ -34,20 +34,23 @@ Bom dia 0-11, Boa tarde 12-17 e Boa noite 18-23.
 
 
 horario_str = input("Digite que horas são agora: ")
-horario_int = int(horario_str)
+try:
+    horario_int = int(horario_str)
 
-horario_dia = horario_int >= 0 and horario_int <= 11
-horario_tarde = horario_int >= 12 and horario_int <= 17
-horario_noite = horario_int >= 18 and horario_int <= 23
+    horario_dia = horario_int >= 0 and horario_int <= 11
+    horario_tarde = horario_int >= 12 and horario_int <= 17
+    horario_noite = horario_int >= 18 and horario_int <= 23
 
-if horario_dia:
-    print("Bom dia!")
-elif horario_tarde:
-    print("Boa tarde!")
-elif horario_noite:
-    print("Boa noite")
-else:
-    print("Esse horário não existe!")
+    if horario_dia:
+        print("Bom dia!")
+    elif horario_tarde:
+        print("Boa tarde!")
+    elif horario_noite:
+        print("Boa noite")
+    else:
+        print("Esse horário não existe")
+except:
+        print("Porfavor digite apenas numeros inteiros")
     
 
 
