@@ -1,3 +1,5 @@
+# Exercício de inserir, apagar e listar
+
 import os # import para limpar o terminal
 opcoes_validas = "ial"
 lista = []
