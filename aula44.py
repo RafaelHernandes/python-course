@@ -20,8 +20,7 @@ print(numeros3)
 # Curiosidade do FOR: não precisamos declarar um indice de autoincremento para que o FOR funcione, pois ele já faz isso automaticamente.
 
 
-for valor in numeros
-: # PARA cada VALOR CONTIDO EM NUMEROS, faça:
+for valor in numeros: # PARA cada VALOR CONTIDO EM NUMEROS, faça:
     print(valor)
     # Apenas foi definido a variável "valor" que recebeu o range "numeros" e armazenou todos os seus valores e exibiu, sem necessidade de indice
     
