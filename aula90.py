@@ -28,8 +28,8 @@ def exibir(lista):
         print(item)
     print()
 
-# lista.sort(key=lambda item: item["nome"])
-l1 = sorted(lista, key=lambda item: item['nome']) # Ordenando por nome
+# lista.sort(key=lambda item: item["nome"]) ordenando por nome
+l1 = sorted(lista, key=lambda item: item['nome']) # Ordenando por nome, o Key é porque l1 está armazenando uma lista que na vdd é um dicionario
 l2 = sorted(lista, key=lambda item: item['sobrenome']) # Ordenando por sobrenome
 
 exibir(l1)
